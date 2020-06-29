@@ -1,0 +1,249 @@
+[
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"internalType": "int256",
+				"name": "id",
+				"type": "int256"
+			},
+			{
+				"internalType": "string",
+				"name": "name",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "age",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "skill_hand",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "backhand_type",
+				"type": "string"
+			}
+		],
+		"name": "registerPlayer",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"internalType": "int256",
+				"name": "player_win_id",
+				"type": "int256"
+			},
+			{
+				"internalType": "int256",
+				"name": "player_win_aces",
+				"type": "int256"
+			},
+			{
+				"internalType": "int256",
+				"name": "player_win_winners",
+				"type": "int256"
+			},
+			{
+				"internalType": "int256",
+				"name": "player_win_double_faults",
+				"type": "int256"
+			},
+			{
+				"internalType": "int256",
+				"name": "player_win_unforce_error",
+				"type": "int256"
+			},
+			{
+				"internalType": "int256",
+				"name": "player_loss_id",
+				"type": "int256"
+			},
+			{
+				"internalType": "int256",
+				"name": "player_loss_aces",
+				"type": "int256"
+			},
+			{
+				"internalType": "int256",
+				"name": "player_loss_winners",
+				"type": "int256"
+			},
+			{
+				"internalType": "int256",
+				"name": "player_loss_double_faults",
+				"type": "int256"
+			},
+			{
+				"internalType": "int256",
+				"name": "player_loss_unforce_error",
+				"type": "int256"
+			}
+		],
+		"name": "setMatchAdvanced",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"internalType": "int256",
+				"name": "player_win_id",
+				"type": "int256"
+			},
+			{
+				"internalType": "int256",
+				"name": "player_loss_id",
+				"type": "int256"
+			}
+		],
+		"name": "setMatchBasic",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"internalType": "int256",
+				"name": "player_win_id",
+				"type": "int256"
+			},
+			{
+				"internalType": "int256",
+				"name": "player_win_aces",
+				"type": "int256"
+			},
+			{
+				"internalType": "int256",
+				"name": "player_win_winners",
+				"type": "int256"
+			},
+			{
+				"internalType": "int256",
+				"name": "player_loss_id",
+				"type": "int256"
+			},
+			{
+				"internalType": "int256",
+				"name": "player_loss_aces",
+				"type": "int256"
+			},
+			{
+				"internalType": "int256",
+				"name": "player_loss_winners",
+				"type": "int256"
+			}
+		],
+		"name": "setMatchIntermediate",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"internalType": "int256",
+				"name": "id",
+				"type": "int256"
+			}
+		],
+		"name": "getPlayerById",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "int256",
+				"name": "",
+				"type": "int256"
+			},
+			{
+				"internalType": "int256",
+				"name": "",
+				"type": "int256"
+			},
+			{
+				"internalType": "int256",
+				"name": "",
+				"type": "int256"
+			},
+			{
+				"internalType": "int256",
+				"name": "",
+				"type": "int256"
+			},
+			{
+				"internalType": "int256",
+				"name": "",
+				"type": "int256"
+			},
+			{
+				"internalType": "int256",
+				"name": "",
+				"type": "int256"
+			},
+			{
+				"internalType": "int256",
+				"name": "",
+				"type": "int256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "getPlayersLength",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
